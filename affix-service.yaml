@@ -8,7 +8,7 @@ spec:
   selector:
     app: affix
   ports:
-    - port: 8080
+    - port: 5000
       # By default and for convenience, the `targetPort` is set to
       # the same value as the `port` field.
       targetPort: 5000
