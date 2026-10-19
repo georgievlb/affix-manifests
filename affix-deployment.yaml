@@ -18,5 +18,9 @@ spec:
       containers:
       - name: affix
         image: ghcr.io/georgievlb/affix:latest
+        env:
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef: affix-db::conn_string
         ports:
         - containerPort: 5000
