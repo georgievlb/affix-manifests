@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: affix-deployment
-  namespace: apps
+  namespace: affix
   labels:
     app: affix
 spec:
