@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: affix
-        image: ghcr.io/georgievlb/affix:main
+        image: ghcr.io/georgievlb/affix:latest
         ports:
         - containerPort: 5000
