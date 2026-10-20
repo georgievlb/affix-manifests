@@ -21,6 +21,8 @@ spec:
         env:
         - name: DATABASE_URL
           valueFrom:
-            secretKeyRef: affix-db::conn_string
+            secretKeyRef: 
+              name: affix-db
+              key: conn_string
         ports:
         - containerPort: 5000
